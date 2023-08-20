@@ -1,0 +1,92 @@
+.about-text{
+  margin-left: 100px;
+}
+.about-text h3 {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-text p {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .about-image {
+    text-align: center;
+    margin-right: 80px;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    /* margin-top: 2rem; */
+  }
+  section{
+    height: 600px;
+    padding-top: 80px;
+    margin-top: -90px;
+    margin-left: -100px;
+    width: 118.5%;
+  }
+  .bg1{
+    background-color: rgb(176, 176, 243);
+  }
+  .bg2{
+    margin-top: 0px;
+    background-color: rgb(228, 165, 202);
+  }
+  .img1{
+    width: 100px;
+    height: 100px;
+  }
+  .col1{
+    margin-left: 200px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+  /* .fun{
+    display: flex;
+    flex-direction: row;
+
+  } */
+  /* .row{
+    border: 2px solid red;
+  } */
+  /* CSS for the container section */
+.bg2 {
+  background-color: #c5c4c4; /* Set your desired background color */
+  text-align: center;
+  /* padding: 2/0px; */
+}
+.Heading{
+  margin-top: -20px;
+    margin-bottom: 100px;
+}
+/* CSS for the grid layout */
+.row-cols-2 {
+  margin-top: -20px;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates two equal columns in each row */
+  gap:10px; /* Gap between columns and rows */
+}
+
+/* CSS for the first two blocks (upper side) */
+.row-cols-2 .col1:nth-child(-n+2) {
+  /* background-color: #ffffff; Set your desired background color for the first two blocks */
+  margin-top: -60px;
+  /* padding: 20px; */
+  width: 300px;
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Optional: Add a box shadow for a card-like effect */
+}
+
+/* CSS for the last two blocks (lower side) */
+.row-cols-2 .col1:nth-child(n+3) {
+  /* background-color: #ffffff; Set your desired background color for the last two blocks */
+  /* padding: 20px; */
+  /* border-radius: 10px; */
+  width: 300px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Optional: Add a box shadow for a card-like effect */
+}
